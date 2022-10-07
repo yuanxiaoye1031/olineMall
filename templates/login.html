@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小野商城-登录</title>
+
+    <<link rel="stylesheet" type="text/css" href="../static/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/node_modules/bootstrap-icons/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css">
+    <script src="../static/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../static/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+    <div class="all_bg">
+    <div class="form-bg" style="margin-top:200px">
+        <div class="container">
+            <div class="row">
+                <!-- 第一行-->
+                <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6" >
+                    <!-- 12列，选择中间的4列-->
+                    <form class="form-horizontal">
+                        <div class="heading">用户登录</div>
+                        <div class="form-group">
+                            <i class="fa fa-user"></i><input required="" name="login[username]" class="form-control" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <i class="fa fa-lock"></i><input required="" name="login[password]" type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="form-group" style="margin-top: 20px;">
+                            <button type="submit" class="btn btn-default">登录</button>
+                            <span><a href="" class="create_account">还没有账户？点击注册</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<script>$('#drag').drag();     </script>
+
+</body>
+</html>

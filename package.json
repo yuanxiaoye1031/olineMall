@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "bootstrap-icons": "^1.9.1",
+    "drag.js": "^0.3.8",
+    "jquery": "^3.6.1"
+  }
+}
